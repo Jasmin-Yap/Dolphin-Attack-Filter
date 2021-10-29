@@ -15,7 +15,7 @@ $control text "Modulate = Change the frequency of your audio file to embed in an
 $control text "Sanitize = Remove hidden high frequency audio"
 
 ;; prompt if user wants to sanitize audio or find the hidden message or increase the frequency of their message
-$control choice "What to do" choice "Demodulate, Modulate, Sanitize" Demodulate
+$control choice "What to do" choice "Demodulate, Modulate, Sanitize"
 
 $control text "Carrier Frequency not required for sanitization."
 
